@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive directories
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /logs/
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Sitemap location
+Sitemap: https://bytesync.in/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
