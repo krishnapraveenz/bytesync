@@ -4,8 +4,7 @@
   "description": "Bytesync Technologies official website - SEO optimized",
   "scripts": {
     "dev": "live-server --port=3000",
-    "build": "npm run minify-css && npm run minify-js",
-    "minify-css": "cssnano styles.css styles.min.css && cssnano whatsapp-styles.css whatsapp-styles.min.css",
+    "build": "echo 'Build skipped for static deployment' && exit 0",
     "minify-js": "terser script.js -o script.min.js",
     "optimize-images": "imagemin *.png --out-dir=optimized/ --plugin.webp",
     "validate-sitemap": "xmllint --noout sitemap.xml"
