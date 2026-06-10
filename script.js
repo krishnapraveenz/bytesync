@@ -338,6 +338,7 @@ const BytesyncApp = (function () {
 
       DOM.statNumbers.forEach((stat) => {
         const target = parseInt(stat.getAttribute("data-target") || "0");
+        const suffix = stat.getAttribute("data-suffix") || "";
         const duration = CONSTANTS.COUNTER_DURATION;
         const increment = target / (duration / CONSTANTS.FPS);
         let current = 0;
@@ -345,10 +346,10 @@ const BytesyncApp = (function () {
         const updateCounter = () => {
           current += increment;
           if (current < target) {
-            stat.textContent = Math.floor(current);
+            stat.textContent = Math.floor(current) + suffix;
             requestAnimationFrame(updateCounter);
           } else {
-            stat.textContent = target;
+            stat.textContent = target + suffix;
           }
         };
 
