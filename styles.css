@@ -1621,7 +1621,7 @@ body.light-mode .theme-toggle .moon-icon {
   gap: 6px;
   font-size: 12px;
   color: var(--text-tertiary);
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--bg-card-hover);
   padding: 4px 8px;
   border-radius: 4px;
 }
@@ -1656,7 +1656,7 @@ body.light-mode .theme-toggle .moon-icon {
 }
 
 .review-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--bg-card);
   padding: 16px;
   border-radius: 12px;
   border: 1px solid transparent;
@@ -1664,7 +1664,7 @@ body.light-mode .theme-toggle .moon-icon {
 }
 
 .review-card:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--bg-card-hover);
   border-color: var(--border-color);
 }
 
@@ -1915,7 +1915,7 @@ body.light-mode .theme-toggle .moon-icon {
    ============================================================ */
 .products {
   padding: 100px 0;
-  background: var(--bg-secondary, #0a0a1a);
+  background: var(--bg-dark);
 }
 
 .products-grid {
@@ -1926,8 +1926,8 @@ body.light-mode .theme-toggle .moon-icon {
 }
 
 .product-card {
-  background: var(--card-bg, rgba(255, 255, 255, 0.03));
-  border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: 20px;
   padding: 2.5rem;
   position: relative;
@@ -1938,8 +1938,8 @@ body.light-mode .theme-toggle .moon-icon {
 
 .product-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  border-color: var(--border-color-hover);
+  box-shadow: var(--shadow-lg);
 }
 
 .product-featured {
@@ -1982,9 +1982,9 @@ body.light-mode .theme-toggle .moon-icon {
   border-radius: 100px;
   font-size: 0.7rem;
   font-weight: 600;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--text-secondary, #a0aec0);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -1993,21 +1993,18 @@ body.light-mode .theme-toggle .moon-icon {
   font-size: 2rem;
   font-weight: 800;
   margin-bottom: 0.25rem;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.7) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--text-primary);
 }
 
 .product-tagline {
   font-size: 1.05rem;
-  color: var(--text-secondary, #a0aec0);
+  color: var(--text-secondary);
   margin-bottom: 1rem;
 }
 
 .product-description {
   font-size: 0.9rem;
-  color: var(--text-secondary, #a0aec0);
+  color: var(--text-tertiary);
   line-height: 1.7;
   margin-bottom: 1.5rem;
 }
@@ -2021,7 +2018,7 @@ body.light-mode .theme-toggle .moon-icon {
 .product-features li {
   padding: 0.4rem 0;
   font-size: 0.875rem;
-  color: var(--text-secondary, #a0aec0);
+  color: var(--text-secondary);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -2038,9 +2035,9 @@ body.light-mode .theme-toggle .moon-icon {
 .product-pricing {
   margin-bottom: 1rem;
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--bg-card);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-color);
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
@@ -2048,7 +2045,7 @@ body.light-mode .theme-toggle .moon-icon {
 
 .price-from {
   font-size: 0.8rem;
-  color: var(--text-muted, #718096);
+  color: var(--text-tertiary);
 }
 
 .price-value {
@@ -2059,7 +2056,7 @@ body.light-mode .theme-toggle .moon-icon {
 .price-value span {
   font-size: 0.85rem;
   font-weight: 400;
-  color: var(--text-muted, #718096);
+  color: var(--text-tertiary);
 }
 
 .product-platforms {
@@ -2073,9 +2070,9 @@ body.light-mode .theme-toggle .moon-icon {
   padding: 0.3rem 0.75rem;
   border-radius: 8px;
   font-size: 0.75rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: var(--text-muted, #718096);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-tertiary);
 }
 
 .product-cta {
@@ -2107,8 +2104,8 @@ body.light-mode .theme-toggle .moon-icon {
 
 .why-item {
   padding: 1.75rem;
-  background: var(--card-bg, rgba(255, 255, 255, 0.03));
-  border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: 16px;
   text-align: center;
 }
@@ -2127,7 +2124,7 @@ body.light-mode .theme-toggle .moon-icon {
 
 .why-item p {
   font-size: 0.8rem;
-  color: var(--text-secondary, #a0aec0);
+  color: var(--text-secondary);
   line-height: 1.5;
 }
 
@@ -2149,60 +2146,12 @@ body.light-mode .theme-toggle .moon-icon {
   }
 }
 
-/* ===== LIGHT MODE — Products ===== */
-body.light-mode .product-card {
-  background: #ffffff;
-  border-color: rgba(0, 0, 0, 0.08);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+/* Product icon backgrounds */
+.product-icon-ledgr {
+  background: linear-gradient(135deg, #0B1120 0%, #1E293B 100%);
+  border: 1px solid #334155;
 }
-body.light-mode .product-card:hover {
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
-}
-body.light-mode .product-featured {
-  border-color: #F59E0B;
-  box-shadow: 0 0 30px rgba(245, 158, 11, 0.1);
-}
-body.light-mode .product-badge {
-  background: rgba(0, 0, 0, 0.04);
-  border-color: rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.6);
-}
-body.light-mode .product-name {
-  background: linear-gradient(180deg, #1a1a1a 0%, rgba(0,0,0,0.7) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-body.light-mode .product-tagline {
-  color: rgba(0, 0, 0, 0.6);
-}
-body.light-mode .product-description {
-  color: rgba(0, 0, 0, 0.55);
-}
-body.light-mode .product-features li {
-  color: rgba(0, 0, 0, 0.65);
-}
-body.light-mode .product-pricing {
-  background: rgba(0, 0, 0, 0.02);
-  border-color: rgba(0, 0, 0, 0.06);
-}
-body.light-mode .price-from {
-  color: rgba(0, 0, 0, 0.45);
-}
-body.light-mode .price-value span {
-  color: rgba(0, 0, 0, 0.45);
-}
-body.light-mode .platform-badge {
-  background: rgba(0, 0, 0, 0.03);
-  border-color: rgba(0, 0, 0, 0.08);
-  color: rgba(0, 0, 0, 0.55);
-}
-body.light-mode .why-item {
-  background: #ffffff;
-  border-color: rgba(0, 0, 0, 0.08);
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
-}
-body.light-mode .products-why h3 {
-  color: #1a1a1a;
+body.light-mode .product-icon-ledgr {
+  background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
+  border: 1px solid #475569;
 }
