@@ -788,7 +788,7 @@ const BytesyncApp = (function () {
 <div class="success">✓ Cloud Solutions</div>
 <div class="success">✓ UI/UX Design</div>`,
     contact: `<div class="info">📧 bytesynctech@gmail.com</div>
-<div class="info">📱 +91 9400581111</div>
+<div class="info">📱 +91 9747588944</div>
 <div class="info">📍 Palakkad, Kerala</div>`,
     clear: "CLEAR",
   };

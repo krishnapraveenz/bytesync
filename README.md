@@ -94,7 +94,7 @@ This website serves as the digital storefront for these services, featuring a bl
 **Bytesync Technologies**
 
 - 📍 Adakkaputhur, Palakkad, Kerala
-- 📞 +91 9400581111
+- 📞 +91 9747588944
 - ✉️ bytesynctech@gmail.com
 - 🌐 [www.bytesync.in](https://bytesync.in)
 
