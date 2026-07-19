@@ -358,6 +358,17 @@ const BytesyncApp = (function () {
     }
   }
 
+  // Show final values immediately as fallback (in case scroll trigger is missed)
+  function initStatFallback() {
+    DOM.statNumbers = Array.from(safeQuerySelectorAll(".stat-number"));
+    DOM.statNumbers.forEach((stat) => {
+      const target = stat.getAttribute("data-target");
+      const suffix = stat.getAttribute("data-suffix") || "";
+      if (target) stat.textContent = target + suffix;
+    });
+  }
+  initStatFallback();
+
   // ===================================
   // BUTTON CLICK HANDLERS
   // ===================================
