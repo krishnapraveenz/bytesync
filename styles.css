@@ -632,6 +632,7 @@ body.light-mode .theme-toggle .moon-icon {
 
 .stat-number::after {
   content: "";
+}
 
 .stat-label {
   font-size: 14px;
