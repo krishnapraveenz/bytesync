@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TP3HS77DHE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-TP3HS77DHE");
+    </script>
+
+    <title>Websites for Dental Clinics & Healthcare in Kerala | Bytesync</title>
+    <meta name="description" content="Professional websites for dental clinics, hospitals, and healthcare providers in Palakkad, Kerala. Online appointment booking, patient portal, WhatsApp integration. Starting ₹15,000." />
+    <meta name="keywords" content="dental clinic website, hospital website Kerala, clinic website design Palakkad, online appointment booking, healthcare website design" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="Websites for Dental Clinics & Healthcare | Bytesync" />
+    <meta property="og:description" content="Get more patients with a professional website for your dental clinic or hospital. Online booking, patient portal, WhatsApp integration." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bytesync.in/clinic-websites" />
+    <meta property="og:image" content="https://bytesync.in/og-image.png" />
+    <meta property="og:site_name" content="Bytesync Technologies" />
+
+    <link rel="canonical" href="https://bytesync.in/clinic-websites.html" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <meta name="theme-color" content="#0a0e27" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .clinic-hero {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        padding: 120px 24px 80px;
+        background: radial-gradient(ellipse at top, rgba(79, 172, 254, 0.15), transparent 70%),
+                    radial-gradient(ellipse at bottom right, rgba(102, 126, 234, 0.08), transparent 60%),
+                    var(--bg-darker);
+      }
+      .clinic-hero::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-image:
+          radial-gradient(circle at 20% 50%, rgba(79, 172, 254, 0.06) 0%, transparent 40%),
+          radial-gradient(circle at 80% 30%, rgba(102, 126, 234, 0.06) 0%, transparent 40%);
+        pointer-events: none;
+      }
+      .clinic-hero-content { position: relative; z-index: 1; max-width: 800px; }
+      .clinic-badge {
+        display: inline-flex; align-items: center; gap: 8px;
+        padding: 8px 20px;
+        background: rgba(79, 172, 254, 0.15);
+        border: 1px solid rgba(79, 172, 254, 0.3);
+        border-radius: 100px;
+        font-size: 0.85rem; font-weight: 500; color: #4facfe;
+        margin-bottom: 24px; animation: fadeInUp 0.8s ease;
+      }
+      .clinic-hero h1 {
+        font-family: var(--font-display);
+        font-size: clamp(2.2rem, 5.5vw, 4rem);
+        font-weight: 700; line-height: 1.1; margin-bottom: 24px;
+        animation: fadeInUp 0.8s ease 0.1s both;
+      }
+      .clinic-hero h1 .gradient-text {
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        -webkit-background-clip: text; background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .clinic-hero p.subtitle {
+        font-size: clamp(1rem, 2vw, 1.25rem);
+        color: var(--text-secondary); margin-bottom: 40px; line-height: 1.7;
+        animation: fadeInUp 0.8s ease 0.2s both;
+      }
+      .clinic-hero-cta {
+        display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+        animation: fadeInUp 0.8s ease 0.3s both;
+      }
+      .btn-clinic-primary {
+        padding: 16px 40px;
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        color: #fff; border: none; border-radius: 12px;
+        font-size: 1.05rem; font-weight: 600; text-decoration: none;
+        display: inline-flex; align-items: center; gap: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 20px rgba(79, 172, 254, 0.4);
+      }
+      .btn-clinic-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 30px rgba(79, 172, 254, 0.5);
+      }
+      .btn-clinic-secondary {
+        padding: 16px 40px; background: transparent;
+        color: var(--text-primary);
+        border: 1px solid var(--border-color);
+        border-radius: 12px; font-size: 1.05rem; font-weight: 600;
+        text-decoration: none; display: inline-flex; align-items: center; gap: 10px;
+        transition: all 0.3s ease;
+      }
+      .btn-clinic-secondary:hover {
+        border-color: var(--border-color-hover); background: var(--bg-card);
+      }
+      .clinic-stats {
+        display: flex; justify-content: center; gap: 60px;
+        margin-top: 60px; flex-wrap: wrap;
+        animation: fadeInUp 0.8s ease 0.4s both;
+      }
+      .clinic-stat { text-align: center; }
+      .clinic-stat-num {
+        font-family: var(--font-display);
+        font-size: 2.5rem; font-weight: 700;
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        -webkit-background-clip: text; background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .clinic-stat-label { font-size: 0.85rem; color: var(--text-tertiary); margin-top: 4px; }
+
+      .clinic-problem { padding: 100px 24px; max-width: 1000px; margin: 0 auto; }
+      .clinic-problem h2 {
+        font-family: var(--font-display);
+        font-size: clamp(1.8rem, 4vw, 2.8rem);
+        text-align: center; margin-bottom: 60px;
+      }
+      .problem-grid {
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;
+      }
+      .problem-card {
+        background: var(--bg-card); border: 1px solid var(--border-color);
+        border-radius: 16px; padding: 32px 28px; transition: all 0.3s ease;
+      }
+      .problem-card:hover {
+        background: var(--bg-card-hover); border-color: var(--border-color-hover);
+        transform: translateY(-4px);
+      }
+      .problem-icon { font-size: 2.5rem; margin-bottom: 16px; }
+      .problem-card h3 { font-size: 1.15rem; margin-bottom: 10px; font-weight: 600; }
+      .problem-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; }
+
+      .clinic-solution { padding: 100px 24px; background: var(--bg-card); }
+      .clinic-solution-inner { max-width: 1100px; margin: 0 auto; }
+      .clinic-solution h2 {
+        font-family: var(--font-display);
+        font-size: clamp(1.8rem, 4vw, 2.8rem);
+        text-align: center; margin-bottom: 20px;
+      }
+      .clinic-solution .sub {
+        text-align: center; color: var(--text-secondary);
+        font-size: 1.1rem; margin-bottom: 60px;
+      }
+      .feature-grid {
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px;
+      }
+      .feature-card {
+        background: var(--bg-darker); border: 1px solid var(--border-color);
+        border-radius: 16px; padding: 32px 24px;
+        transition: all 0.3s ease; position: relative; overflow: hidden;
+      }
+      .feature-card::before {
+        content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        transform: scaleX(0); transform-origin: left; transition: transform 0.3s ease;
+      }
+      .feature-card:hover::before { transform: scaleX(1); }
+      .feature-card:hover {
+        transform: translateY(-4px); border-color: rgba(79, 172, 254, 0.3);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      }
+      .feature-icon {
+        width: 52px; height: 52px; border-radius: 12px;
+        background: rgba(79, 172, 254, 0.15);
+        display: flex; align-items: center; justify-content: center;
+        font-size: 1.5rem; margin-bottom: 20px;
+      }
+      .feature-card h3 { font-size: 1.1rem; margin-bottom: 8px; font-weight: 600; }
+      .feature-card p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; }
+
+      .clinic-pricing { padding: 100px 24px; max-width: 1000px; margin: 0 auto; }
+      .clinic-pricing h2 {
+        font-family: var(--font-display);
+        font-size: clamp(1.8rem, 4vw, 2.8rem);
+        text-align: center; margin-bottom: 20px;
+      }
+      .clinic-pricing .sub {
+        text-align: center; color: var(--text-secondary);
+        font-size: 1.1rem; margin-bottom: 60px;
+      }
+      .pricing-grid {
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px;
+      }
+      .price-card {
+        background: var(--bg-card); border: 1px solid var(--border-color);
+        border-radius: 20px; padding: 40px 32px;
+        transition: all 0.3s ease; position: relative;
+      }
+      .price-card.popular {
+        border-color: rgba(79, 172, 254, 0.4);
+        box-shadow: 0 0 40px rgba(79, 172, 254, 0.15);
+      }
+      .price-card.popular::after {
+        content: 'Most Popular'; position: absolute; top: -14px; left: 50%;
+        transform: translateX(-50%);
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        color: #fff; font-size: 0.75rem; font-weight: 600;
+        padding: 6px 18px; border-radius: 100px; white-space: nowrap;
+      }
+      .price-card:hover {
+        transform: translateY(-4px); border-color: var(--border-color-hover);
+      }
+      .price-name { font-size: 1.1rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 8px; }
+      .price-amount { font-family: var(--font-display); font-size: 2.8rem; font-weight: 700; margin-bottom: 4px; }
+      .price-period { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 28px; }
+      .price-features { list-style: none; margin-bottom: 32px; }
+      .price-features li {
+        padding: 8px 0; color: var(--text-secondary);
+        font-size: 0.9rem; display: flex; align-items: flex-start; gap: 10px;
+      }
+      .price-features li::before { content: '✓'; color: #4ade80; font-weight: 700; flex-shrink: 0; }
+      .price-btn {
+        display: block; width: 100%; padding: 14px; text-align: center;
+        border-radius: 10px; font-weight: 600; font-size: 0.95rem;
+        text-decoration: none; transition: all 0.3s ease;
+      }
+      .price-btn.primary { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: #fff; }
+      .price-btn.primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(79, 172, 254, 0.4); }
+      .price-btn.secondary { background: transparent; color: var(--text-primary); border: 1px solid var(--border-color); }
+      .price-btn.secondary:hover { border-color: var(--border-color-hover); background: var(--bg-card); }
+
+      .clinic-cta { padding: 100px 24px; text-align: center; position: relative; overflow: hidden; }
+      .clinic-cta-inner { max-width: 700px; margin: 0 auto; position: relative; z-index: 1; }
+      .clinic-cta h2 {
+        font-family: var(--font-display);
+        font-size: clamp(1.8rem, 4vw, 2.8rem); margin-bottom: 20px;
+      }
+      .clinic-cta p { color: var(--text-secondary); font-size: 1.15rem; margin-bottom: 40px; }
+      .clinic-cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+      .clinic-whatsapp-float {
+        position: fixed; bottom: 24px; right: 24px; z-index: 999;
+        width: 60px; height: 60px; background: #25d366; border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+        transition: all 0.3s ease; animation: pulse-wa 2s infinite; text-decoration: none;
+      }
+      .clinic-whatsapp-float:hover { transform: scale(1.1); }
+      @keyframes pulse-wa {
+        0%, 100% { box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4); }
+        50% { box-shadow: 0 4px 30px rgba(37, 211, 102, 0.6); }
+      }
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @media (max-width: 640px) {
+        .clinic-stats { gap: 30px; }
+        .clinic-stat-num { font-size: 1.8rem; }
+        .clinic-hero-cta { flex-direction: column; }
+        .btn-clinic-primary, .btn-clinic-secondary { width: 100%; justify-content: center; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="https://bytesync.in" class="logo">
+          <img src="logo-light.png" alt="Bytesync" style="height: 32px;" />
+          <span>Bytesync</span>
+        </a>
+        <div class="nav-links">
+          <a href="https://bytesync.in">Home</a>
+          <a href="https://bytesync.in#services">Services</a>
+          <a href="https://bytesync.in#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="clinic-hero">
+      <div class="clinic-hero-content">
+        <div class="clinic-badge"><span>🦷</span> Built for Dental Clinics & Healthcare</div>
+        <h1>More Patients Start With a <span class="gradient-text">Website That Builds Trust</span></h1>
+        <p class="subtitle">
+          72% of patients search online before booking an appointment. If your clinic isn't online, they're booking with a competitor who is. We fix that.
+        </p>
+        <div class="clinic-hero-cta">
+          <a href="https://wa.me/919747588944?text=Hi%20Krishna,%20I%20want%20a%20website%20for%20my%20dental%20clinic" class="btn-clinic-primary">
+            <span>💬</span> Get Free Demo on WhatsApp
+          </a>
+          <a href="#pricing" class="btn-clinic-secondary">See Pricing</a>
+        </div>
+        <div class="clinic-stats">
+          <div class="clinic-stat"><div class="clinic-stat-num">72%</div><div class="clinic-stat-label">Search Online First</div></div>
+          <div class="clinic-stat"><div class="clinic-stat-num">60%</div><div class="clinic-stat-label">Less Phone Calls</div></div>
+          <div class="clinic-stat"><div class="clinic-stat-num">₹15k</div><div class="clinic-stat-label">Starting Price</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clinic-problem">
+      <h2>Patients Can't Find Your Clinic</h2>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon">🔍</div>
+          <h3>Invisible on Google</h3>
+          <p>When patients search "dental clinic near me", your competitors show up — not you. No website means no new patients from Google.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">📞</div>
+          <h3>Endless Phone Calls</h3>
+          <p>Your staff wastes hours answering "what are your timings?" and "do you have an opening?". An online booking system handles that automatically.</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon">🤷</div>
+          <h3>No Trust Signal</h3>
+          <p>Patients judge a clinic by its website. No website = "is this clinic legitimate?". Your competitors with websites win their trust.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="clinic-solution">
+      <div class="clinic-solution-inner">
+        <h2>What We Build for Your Clinic</h2>
+        <p class="sub">Everything a modern dental clinic or healthcare practice needs</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">📅</div>
+            <h3>Online Appointment Booking</h3>
+            <p>Patients book appointments online 24/7. Choose time slots, doctor, treatment type. You get instant WhatsApp notification. Reduces phone calls by 60%.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🦷</div>
+            <h3>Treatment Showcase</h3>
+            <p>Display all your treatments — root canal, implants, braces, whitening — with pricing. Patients know what you offer and what it costs.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💬</div>
+            <h3>WhatsApp Integration</h3>
+            <p>One tap and patients are chatting with your clinic on WhatsApp. Appointment reminders, follow-ups, queries — all on WhatsApp.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">👨‍⚕️</div>
+            <h3>Doctor Profiles</h3>
+            <p>Showcase your doctors' qualifications, experience, and specialties. Build instant trust before the patient even walks in.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⭐</div>
+            <h3>Reviews & Testimonials</h3>
+            <p>Display patient reviews and before/after photos. Social proof is the #1 factor in healthcare decisions.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>100% Mobile Friendly</h3>
+            <p>Most patients will visit on their phone. Your website looks perfect on every screen — pixel perfect.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clinic-pricing" id="pricing">
+      <h2>Simple, Honest Pricing</h2>
+      <p class="sub">One-time payment. No monthly fees. No hidden costs.</p>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <div class="price-name">Starter</div>
+          <div class="price-amount">₹15,000</div>
+          <div class="price-period">one-time</div>
+          <ul class="price-features">
+            <li>3-page professional website</li>
+            <li>Mobile responsive</li>
+            <li>WhatsApp click-to-chat</li>
+            <li>Google Maps integration</li>
+            <li>Treatment list page</li>
+            <li>SSL certificate (HTTPS)</li>
+            <li>Contact form</li>
+            <li>Delivery in 5-7 days</li>
+          </ul>
+          <a href="https://wa.me/919747588944?text=I%20want%20the%20Starter%20website%20package%20for%20my%20clinic" class="price-btn secondary">Get Started</a>
+        </div>
+        <div class="price-card popular">
+          <div class="price-name">Professional</div>
+          <div class="price-amount">₹35,000</div>
+          <div class="price-period">one-time</div>
+          <ul class="price-features">
+            <li>5-7 page custom website</li>
+            <li>Online appointment booking system</li>
+            <li>Doctor profiles & specialties</li>
+            <li>Treatment showcase with pricing</li>
+            <li>WhatsApp appointment reminders</li>
+            <li>Google Maps + Reviews widget</li>
+            <li>SEO ready (rank on Google)</li>
+            <li>Google Business setup</li>
+            <li>3 free revisions</li>
+            <li>Delivery in 10-14 days</li>
+          </ul>
+          <a href="https://wa.me/919747588944?text=I%20want%20the%20Professional%20website%20package%20for%20my%20clinic" class="price-btn primary">Get Started</a>
+        </div>
+        <div class="price-card">
+          <div class="price-name">Premium</div>
+          <div class="price-amount">₹65,000</div>
+          <div class="price-period">one-time</div>
+          <ul class="price-features">
+            <li>Full custom website (unlimited pages)</li>
+            <li>Advanced booking + patient management</li>
+            <li>Patient portal (history, reports)</li>
+            <li>Multi-doctor scheduling</li>
+            <li>SMS/WhatsApp auto-reminders</li>
+            <li>Admin dashboard</li>
+            <li>Premium SEO optimization</li>
+            <li>Before/after gallery</li>
+            <li>Social media integration</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="https://wa.me/919747588944?text=I%20want%20the%20Premium%20website%20package%20for%20my%20clinic" class="price-btn secondary">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="clinic-cta">
+      <div class="clinic-cta-inner">
+        <h2>Ready to Get More Patients?</h2>
+        <p>Every day without a website, your competitor gets the patient. Let's fix that this week.</p>
+        <div class="clinic-cta-buttons">
+          <a href="https://wa.me/919747588944?text=Hi%20Krishna,%20I%20want%20a%20website%20for%20my%20dental%20clinic.%20Can%20we%20talk?" class="btn-clinic-primary">
+            <span>💬</span> WhatsApp Krishna Now
+          </a>
+          <a href="tel:+919747588944" class="btn-clinic-secondary">
+            <span>📞</span> Call +91 97475 88944
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <a href="https://wa.me/919747588944?text=Hi%20Krishna,%20I%20want%20a%20website%20for%20my%20clinic" class="clinic-whatsapp-float" target="_blank">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+
+    <script>
+      window.addEventListener('scroll', () => {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 50) navbar.classList.add('scrolled');
+        else navbar.classList.remove('scrolled');
+      });
+    </script>
+  </body>
+</html>
